@@ -1,0 +1,720 @@
+{
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+      "id": {
+        "$id": "/properties/id",
+        "type": "integer",
+        "title": "The Id Schema ",
+        "default": 0,
+        "examples": [
+          998058
+        ]
+      },
+      "netWeight": {
+        "$id": "/properties/netWeight",
+        "type": "integer",
+        "title": "The Netweight Schema ",
+        "default": 0,
+        "examples": [
+          459660
+        ]
+      },
+      "offerPrice": {
+        "$id": "/properties/offerPrice",
+        "type": "string",
+        "title": "The Offerprice Schema ",
+        "default": "",
+        "examples": [
+          "5725"
+        ]
+      },
+      "tareWeight": {
+        "$id": "/properties/tareWeight",
+        "type": "integer",
+        "title": "The Tareweight Schema ",
+        "default": 0,
+        "examples": [
+          1908
+        ]
+      },
+      "tradingTerms": {
+        "$id": "/properties/tradingTerms",
+        "type": "string",
+        "title": "The Tradingterms Schema ",
+        "default": "",
+        "examples": [
+          "02"
+        ]
+      },
+      "baseCurrency": {
+        "$id": "/properties/baseCurrency",
+        "type": "string",
+        "title": "The Basecurrency Schema ",
+        "default": "",
+        "examples": [
+          "USD"
+        ]
+      },
+      "bales": {
+        "$id": "/properties/bales",
+        "type": "integer",
+        "title": "The Bales Schema ",
+        "default": 0,
+        "examples": [
+          954
+        ]
+      },
+      "unitMeasure": {
+        "$id": "/properties/unitMeasure",
+        "type": "string",
+        "title": "The Unitmeasure Schema ",
+        "default": "",
+        "examples": [
+          "US Bales"
+        ]
+      },
+      "weightMeasure": {
+        "$id": "/properties/weightMeasure",
+        "type": "string",
+        "title": "The Weightmeasure Schema ",
+        "default": "",
+        "examples": [
+          "pounds"
+        ]
+      },
+      "comments": {
+        "$id": "/properties/comments",
+        "type": "string",
+        "title": "The Comments Schema ",
+        "default": "",
+        "examples": [
+          "Buy this recap"
+        ]
+      },
+      "pickerHarvestedUnits": {
+        "$id": "/properties/pickerHarvestedUnits",
+        "type": "integer",
+        "title": "The Pickerharvestedunits Schema ",
+        "default": 0,
+        "examples": [
+          0
+        ]
+      },
+      "benchmarkPrices": {
+        "$id": "/properties/benchmarkPrices",
+        "type": "array",
+        "items": {
+          "$id": "/properties/benchmarkPrices/items",
+          "type": "object",
+          "properties": {
+            "source": {
+              "$id": "/properties/benchmarkPrices/items/properties/source",
+              "type": "string",
+              "title": "The Source Schema ",
+              "default": "",
+              "examples": [
+                "USDA 2017 Loan"
+              ]
+            },
+            "price": {
+              "$id": "/properties/benchmarkPrices/items/properties/price",
+              "type": "string",
+              "title": "The Price Schema ",
+              "default": "",
+              "examples": [
+                "4152"
+              ]
+            }
+          }
+        }
+      },
+      "categories": {
+        "$id": "/properties/categories",
+        "type": "object",
+        "properties": {
+          "micgroups": {
+            "$id": "/properties/categories/properties/micgroups",
+            "type": "array",
+            "items": {
+              "$id": "/properties/categories/properties/micgroups/items",
+              "type": "object",
+              "properties": {
+                "micgroup": {
+                  "$id": "/properties/categories/properties/micgroups/items/properties/micgroup",
+                  "type": "integer",
+                  "title": "The Micgroup Schema ",
+                  "default": 0,
+                  "examples": [
+                    1
+                  ]
+                },
+                "average": {
+                  "$id": "/properties/categories/properties/micgroups/items/properties/average",
+                  "type": "integer",
+                  "title": "The Average Schema ",
+                  "default": 0,
+                  "examples": [
+                    25
+                  ]
+                },
+                "items": {
+                  "$id": "/properties/categories/properties/micgroups/items/properties/items",
+                  "type": "array",
+                  "items": {
+                    "$id": "/properties/categories/properties/micgroups/items/properties/items/items",
+                    "type": "object",
+                    "properties": {
+                      "staple": {
+                        "$id": "/properties/categories/properties/micgroups/items/properties/items/items/properties/staple",
+                        "type": "integer",
+                        "title": "The Staple Schema ",
+                        "default": 0,
+                        "examples": [
+                          34
+                        ]
+                      },
+                      "units": {
+                        "$id": "/properties/categories/properties/micgroups/items/properties/items/items/properties/units",
+                        "type": "integer",
+                        "title": "The Units Schema ",
+                        "default": 0,
+                        "examples": [
+                          0
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "grade": {
+            "$id": "/properties/categories/properties/grade",
+            "type": "array",
+            "items": {
+              "$id": "/properties/categories/properties/grade/items",
+              "type": "object",
+              "properties": {
+                "color": {
+                  "$id": "/properties/categories/properties/grade/items/properties/color",
+                  "type": "string",
+                  "title": "The Color Schema ",
+                  "default": "",
+                  "examples": [
+                    "23"
+                  ]
+                },
+                "leaf": {
+                  "$id": "/properties/categories/properties/grade/items/properties/leaf",
+                  "type": "integer",
+                  "title": "The Leaf Schema ",
+                  "default": 0,
+                  "examples": [
+                    2
+                  ]
+                },
+                "remarks": {
+                  "$id": "/properties/categories/properties/grade/items/properties/remarks",
+                  "type": "integer",
+                  "title": "The Remarks Schema ",
+                  "default": 0,
+                  "examples": [
+                    0
+                  ]
+                },
+                "items": {
+                  "$id": "/properties/categories/properties/grade/items/properties/items",
+                  "type": "array",
+                  "items": {
+                    "$id": "/properties/categories/properties/grade/items/properties/items/items",
+                    "type": "object",
+                    "properties": {
+                      "staple": {
+                        "$id": "/properties/categories/properties/grade/items/properties/items/items/properties/staple",
+                        "type": "integer",
+                        "title": "The Staple Schema ",
+                        "default": 0,
+                        "examples": [
+                          36
+                        ]
+                      },
+                      "units": {
+                        "$id": "/properties/categories/properties/grade/items/properties/items/items/properties/units",
+                        "type": "integer",
+                        "title": "The Units Schema ",
+                        "default": 0,
+                        "examples": [
+                          1
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "color": {
+            "$id": "/properties/categories/properties/color",
+            "type": "array",
+            "items": {
+              "$id": "/properties/categories/properties/color/items",
+              "type": "object",
+              "properties": {
+                "color": {
+                  "$id": "/properties/categories/properties/color/items/properties/color",
+                  "type": "string",
+                  "title": "The Color Schema ",
+                  "default": "",
+                  "examples": [
+                    "23"
+                  ]
+                },
+                "units": {
+                  "$id": "/properties/categories/properties/color/items/properties/units",
+                  "type": "integer",
+                  "title": "The Units Schema ",
+                  "default": 0,
+                  "examples": [
+                    20
+                  ]
+                }
+              }
+            }
+          },
+          "leaf": {
+            "$id": "/properties/categories/properties/leaf",
+            "type": "object",
+            "properties": {
+              "average": {
+                "$id": "/properties/categories/properties/leaf/properties/average",
+                "type": "integer",
+                "title": "The Average Schema ",
+                "default": 0
+              },
+              "items": {
+                "$id": "/properties/categories/properties/leaf/properties/items",
+                "type": "array",
+                "items": {
+                  "$id": "/properties/categories/properties/leaf/properties/items/items",
+                  "type": "object",
+                  "properties": {
+                    "leaf": {
+                      "$id": "/properties/categories/properties/leaf/properties/items/items/properties/leaf",
+                      "type": "integer",
+                      "title": "The Leaf Schema ",
+                      "default": 0,
+                      "examples": [
+                        2
+                      ]
+                    },
+                    "units": {
+                      "$id": "/properties/categories/properties/leaf/properties/items/items/properties/units",
+                      "type": "integer",
+                      "title": "The Units Schema ",
+                      "default": 0,
+                      "examples": [
+                        2
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "staple": {
+            "$id": "/properties/categories/properties/staple",
+            "type": "object",
+            "properties": {
+              "average": {
+                "$id": "/properties/categories/properties/staple/properties/average",
+                "type": "number",
+                "title": "The Average Schema ",
+                "default": 0,
+                "examples": [
+                  36.20000076293945
+                ]
+              },
+              "items": {
+                "$id": "/properties/categories/properties/staple/properties/items",
+                "type": "array",
+                "items": {
+                  "$id": "/properties/categories/properties/staple/properties/items/items",
+                  "type": "object",
+                  "properties": {
+                    "staple": {
+                      "$id": "/properties/categories/properties/staple/properties/items/items/properties/staple",
+                      "type": "integer",
+                      "title": "The Staple Schema ",
+                      "default": 0,
+                      "examples": [
+                        33
+                      ]
+                    },
+                    "units": {
+                      "$id": "/properties/categories/properties/staple/properties/items/items/properties/units",
+                      "type": "integer",
+                      "title": "The Units Schema ",
+                      "default": 0,
+                      "examples": [
+                        30
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "micronaire": {
+            "$id": "/properties/categories/properties/micronaire",
+            "type": "object",
+            "properties": {
+              "average": {
+                "$id": "/properties/categories/properties/micronaire/properties/average",
+                "type": "number",
+                "title": "The Average Schema ",
+                "default": 0,
+                "examples": [
+                  34.5
+                ]
+              },
+              "items": {
+                "$id": "/properties/categories/properties/micronaire/properties/items",
+                "type": "array",
+                "items": {
+                  "$id": "/properties/categories/properties/micronaire/properties/items/items",
+                  "type": "object",
+                  "properties": {
+                    "micronaire": {
+                      "$id": "/properties/categories/properties/micronaire/properties/items/items/properties/micronaire",
+                      "type": "integer",
+                      "title": "The Micronaire Schema ",
+                      "default": 0,
+                      "examples": [
+                        25
+                      ]
+                    },
+                    "units": {
+                      "$id": "/properties/categories/properties/micronaire/properties/items/items/properties/units",
+                      "type": "integer",
+                      "title": "The Units Schema ",
+                      "default": 0,
+                      "examples": [
+                        1
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "strength": {
+            "$id": "/properties/categories/properties/strength",
+            "type": "object",
+            "properties": {
+              "average": {
+                "$id": "/properties/categories/properties/strength/properties/average",
+                "type": "number",
+                "title": "The Average Schema ",
+                "default": 0,
+                "examples": [
+                  28.299999237060547
+                ]
+              },
+              "items": {
+                "$id": "/properties/categories/properties/strength/properties/items",
+                "type": "array",
+                "items": {
+                  "$id": "/properties/categories/properties/strength/properties/items/items",
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "$id": "/properties/categories/properties/strength/properties/items/items/properties/strength",
+                      "type": "string",
+                      "title": "The Strength Schema ",
+                      "default": "",
+                      "examples": [
+                        "24.0"
+                      ]
+                    },
+                    "units": {
+                      "$id": "/properties/categories/properties/strength/properties/items/items/properties/units",
+                      "type": "integer",
+                      "title": "The Units Schema ",
+                      "default": 0,
+                      "examples": [
+                        1
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "length": {
+            "$id": "/properties/categories/properties/length",
+            "type": "object",
+            "properties": {
+              "average": {
+                "$id": "/properties/categories/properties/length/properties/average",
+                "type": "integer",
+                "title": "The Average Schema ",
+                "default": 0,
+                "examples": [
+                  113
+                ]
+              },
+              "items": {
+                "$id": "/properties/categories/properties/length/properties/items",
+                "type": "array",
+                "items": {
+                  "$id": "/properties/categories/properties/length/properties/items/items",
+                  "type": "object",
+                  "properties": {
+                    "length": {
+                      "$id": "/properties/categories/properties/length/properties/items/items/properties/length",
+                      "type": "integer",
+                      "title": "The Length Schema ",
+                      "default": 0,
+                      "examples": [
+                        102
+                      ]
+                    },
+                    "units": {
+                      "$id": "/properties/categories/properties/length/properties/items/items/properties/units",
+                      "type": "integer",
+                      "title": "The Units Schema ",
+                      "default": 0,
+                      "examples": [
+                        8
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "uniformity": {
+            "$id": "/properties/categories/properties/uniformity",
+            "type": "object",
+            "properties": {
+              "average": {
+                "$id": "/properties/categories/properties/uniformity/properties/average",
+                "type": "number",
+                "title": "The Average Schema ",
+                "default": 0,
+                "examples": [
+                  80.4000015258789
+                ]
+              },
+              "items": {
+                "$id": "/properties/categories/properties/uniformity/properties/items",
+                "type": "array",
+                "items": {
+                  "$id": "/properties/categories/properties/uniformity/properties/items/items",
+                  "type": "object",
+                  "properties": {
+                    "uniformity": {
+                      "$id": "/properties/categories/properties/uniformity/properties/items/items/properties/uniformity",
+                      "type": "string",
+                      "title": "The Uniformity Schema ",
+                      "default": "",
+                      "examples": [
+                        "76.0"
+                      ]
+                    },
+                    "units": {
+                      "$id": "/properties/categories/properties/uniformity/properties/items/items/properties/units",
+                      "type": "integer",
+                      "title": "The Units Schema ",
+                      "default": 0,
+                      "examples": [
+                        2
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "extraneousMatter": {
+            "$id": "/properties/categories/properties/extraneousMatter",
+            "type": "array",
+            "items": {
+              "$id": "/properties/categories/properties/extraneousMatter/items",
+              "type": "object",
+              "properties": {
+                "extraneous": {
+                  "$id": "/properties/categories/properties/extraneousMatter/items/properties/extraneous",
+                  "type": "string",
+                  "title": "The Extraneous Schema ",
+                  "default": "",
+                  "examples": [
+                    "11"
+                  ]
+                },
+                "units": {
+                  "$id": "/properties/categories/properties/extraneousMatter/items/properties/units",
+                  "type": "integer",
+                  "title": "The Units Schema ",
+                  "default": 0,
+                  "examples": [
+                    524
+                  ]
+                }
+              }
+            }
+          },
+          "cropYear": {
+            "$id": "/properties/categories/properties/cropYear",
+            "type": "array",
+            "items": {
+              "$id": "/properties/categories/properties/cropYear/items",
+              "type": "object",
+              "properties": {
+                "cropYear": {
+                  "$id": "/properties/categories/properties/cropYear/items/properties/cropYear",
+                  "type": "integer",
+                  "title": "The Cropyear Schema ",
+                  "default": 0,
+                  "examples": [
+                    2017
+                  ]
+                },
+                "units": {
+                  "$id": "/properties/categories/properties/cropYear/items/properties/units",
+                  "type": "integer",
+                  "title": "The Units Schema ",
+                  "default": 0,
+                  "examples": [
+                    954
+                  ]
+                }
+              }
+            }
+          },
+          "weight": {
+            "$id": "/properties/categories/properties/weight",
+            "type": "array",
+            "items": {
+              "$id": "/properties/categories/properties/weight/items",
+              "type": "object",
+              "properties": {
+                "minPounds": {
+                  "$id": "/properties/categories/properties/weight/items/properties/minPounds",
+                  "type": "string",
+                  "title": "The Minpounds Schema ",
+                  "default": "",
+                  "examples": [
+                    "380"
+                  ]
+                },
+                "maxPounds": {
+                  "$id": "/properties/categories/properties/weight/items/properties/maxPounds",
+                  "type": "string",
+                  "title": "The Maxpounds Schema ",
+                  "default": "",
+                  "examples": [
+                    "550"
+                  ]
+                },
+                "weight": {
+                  "$id": "/properties/categories/properties/weight/items/properties/weight",
+                  "type": "string",
+                  "title": "The Weight Schema ",
+                  "default": "",
+                  "examples": [
+                    "380-550"
+                  ]
+                },
+                "units": {
+                  "$id": "/properties/categories/properties/weight/items/properties/units",
+                  "type": "integer",
+                  "title": "The Units Schema ",
+                  "default": 0,
+                  "examples": [
+                    953
+                  ]
+                }
+              }
+            }
+          },
+          "warehouses": {
+            "$id": "/properties/categories/properties/warehouses",
+            "type": "array",
+            "items": {
+              "$id": "/properties/categories/properties/warehouses/items",
+              "type": "object",
+              "properties": {
+                "code": {
+                  "$id": "/properties/categories/properties/warehouses/items/properties/code",
+                  "type": "integer",
+                  "title": "The Code Schema ",
+                  "default": 0,
+                  "examples": [
+                    385000
+                  ]
+                },
+                "city": {
+                  "$id": "/properties/categories/properties/warehouses/items/properties/city",
+                  "type": "string",
+                  "title": "The City Schema ",
+                  "default": "",
+                  "examples": [
+                    "Liberal"
+                  ]
+                },
+                "governingDistrict": {
+                  "$id": "/properties/categories/properties/warehouses/items/properties/governingDistrict",
+                  "type": "string",
+                  "title": "The Governingdistrict Schema ",
+                  "default": "",
+                  "examples": [
+                    "KS"
+                  ]
+                },
+                "avgLRRPoints": {
+                  "$id": "/properties/categories/properties/warehouses/items/properties/avgLRRPoints",
+                  "type": "number",
+                  "title": "The Avglrrpoints Schema ",
+                  "default": 0,
+                  "examples": [
+                    0.41260001063346863
+                  ]
+                },
+                "avgLoanPoints": {
+                  "$id": "/properties/categories/properties/warehouses/items/properties/avgLoanPoints",
+                  "type": "number",
+                  "title": "The Avgloanpoints Schema ",
+                  "default": 0,
+                  "examples": [
+                    0.41260001063346863
+                  ]
+                },
+                "rail": {
+                  "$id": "/properties/categories/properties/warehouses/items/properties/rail",
+                  "type": "string",
+                  "title": "The Rail Schema ",
+                  "default": "",
+                  "examples": [
+                    "no"
+                  ]
+                },
+                "units": {
+                  "$id": "/properties/categories/properties/warehouses/items/properties/units",
+                  "type": "integer",
+                  "title": "The Units Schema ",
+                  "default": 0,
+                  "examples": [
+                    812
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
